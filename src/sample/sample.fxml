@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #fafa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="86.0" prefHeight="314.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="loginInput" layoutX="208.0" layoutY="101.0" prefHeight="44.0" prefWidth="285.0" promptText="Login" style="-fx-background-color: #fafa; -fx-background-radius: 20;">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="passwordInput" layoutX="257.0" layoutY="163.0" prefHeight="34.0" prefWidth="186.0" promptText="Password" style="-fx-background-color: #fafa; -fx-background-radius: 20;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="241.0" layoutY="22.0" text="Avtorization" textFill="#056cff">
+               <font>
+                  <Font name="Segoe Print" size="35.0" />
+               </font>
+            </Label>
+            <Button fx:id="enterButton" layoutX="283.0" layoutY="226.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="132.0" style="-fx-background-color: #fafa; -fx-background-radius: 20;" text="Entrance" textFill="#ce00ff">
+               <font>
+                  <Font name="Segoe Print" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="244.0" text="Coliseum" textFill="#056cff">
+         <font>
+            <Font name="Segoe Print" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="regButton" layoutX="520.0" layoutY="21.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="166.0" style="-fx-background-color: #fafa; -fx-background-radius: 20;" text="Registration" textFill="#ce00ff">
+         <font>
+            <Font name="Segoe Print" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
